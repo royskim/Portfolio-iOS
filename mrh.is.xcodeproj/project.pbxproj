@@ -7,20 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320AF8492C47A4D819F7C450 /* QuartzCore.framework */; };
 		4C3CA011162E34FE00476C4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3CA010162E34FE00476C4F /* UIKit.framework */; };
 		4C3CA013162E34FE00476C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3CA012162E34FE00476C4F /* Foundation.framework */; };
 		4C3CA015162E34FE00476C4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3CA014162E34FE00476C4F /* CoreGraphics.framework */; };
 		4C3CA01B162E34FE00476C4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA019162E34FE00476C4F /* InfoPlist.strings */; };
 		4C3CA01D162E34FE00476C4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA01C162E34FE00476C4F /* main.m */; };
 		4C3CA021162E34FE00476C4F /* MRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA020162E34FE00476C4F /* MRHAppDelegate.m */; };
-		4C3CA023162E34FE00476C4F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA022162E34FE00476C4F /* Default.png */; };
-		4C3CA025162E34FE00476C4F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA024162E34FE00476C4F /* Default@2x.png */; };
-		4C3CA027162E34FE00476C4F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA026162E34FE00476C4F /* Default-568h@2x.png */; };
-		4C3CA02A162E34FE00476C4F /* MRHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA029162E34FE00476C4F /* MRHViewController.m */; };
-		4C3CA02D162E34FE00476C4F /* MRHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA02B162E34FE00476C4F /* MRHViewController.xib */; };
+		4C3CA19A162E9D3200476C4F /* MRHMindmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA191162E9D3200476C4F /* MRHMindmap.m */; };
+		4C3CA19B162E9D3200476C4F /* MRHMindmapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA193162E9D3200476C4F /* MRHMindmapController.m */; };
+		4C3CA19C162E9D3200476C4F /* MRHMindmapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA194162E9D3200476C4F /* MRHMindmapController.xib */; };
+		4C3CA19D162E9D3200476C4F /* MRHMindmapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA196162E9D3200476C4F /* MRHMindmapViewController.m */; };
+		4C3CA19E162E9D3200476C4F /* MRHMindmapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA197162E9D3200476C4F /* MRHMindmapViewController.xib */; };
+		4C3CA19F162E9D3200476C4F /* MRHPageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA199162E9D3200476C4F /* MRHPageButton.m */; };
+		4C3CA1A7162E9D3B00476C4F /* MRHInnerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA1A1162E9D3B00476C4F /* MRHInnerShadowView.m */; };
+		4C3CA1A8162E9D3B00476C4F /* MRHPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA1A3162E9D3B00476C4F /* MRHPageViewController.m */; };
+		4C3CA1A9162E9D3B00476C4F /* MRHPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1A4162E9D3B00476C4F /* MRHPageViewController.xib */; };
+		4C3CA1AA162E9D3B00476C4F /* UIView+InnerShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA1A6162E9D3B00476C4F /* UIView+InnerShadow.m */; };
+		4C3CA1AF162E9D5900476C4F /* Edmondsans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1AC162E9D5900476C4F /* Edmondsans-Bold.otf */; };
+		4C3CA1B0162E9D5900476C4F /* Edmondsans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1AD162E9D5900476C4F /* Edmondsans-Medium.otf */; };
+		4C3CA1B1162E9D5900476C4F /* Edmondsans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1AE162E9D5900476C4F /* Edmondsans-Regular.otf */; };
+		4C3CA1B5162E9D6F00476C4F /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1B3162E9D6F00476C4F /* web.png */; };
+		4C3CA1B6162E9D6F00476C4F /* web@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1B4162E9D6F00476C4F /* web@2x.png */; };
+		4C3CA1BA162E9DA200476C4F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1B7162E9DA200476C4F /* Default-568h@2x.png */; };
+		4C3CA1BB162E9DA200476C4F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1B8162E9DA200476C4F /* Default.png */; };
+		4C3CA1BC162E9DA200476C4F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1B9162E9DA200476C4F /* Default@2x.png */; };
+		4C3CA1BE162E9DB700476C4F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1BD162E9DB700476C4F /* Icon@2x.png */; };
+		4C3CA1C0162E9DBE00476C4F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1BF162E9DBE00476C4F /* Icon.png */; };
+		4C3CA1C6162EA2BA00476C4F /* Pages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1C5162EA2BA00476C4F /* Pages.plist */; };
+		4C3CA1C7162EA59800476C4F /* MRHPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CA1C3162EA29400476C4F /* MRHPage.m */; };
+		4C3CA1C9162EA76C00476C4F /* solid80gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1C8162EA76C00476C4F /* solid80gray.png */; };
+		4C3CA1CB162EA85B00476C4F /* solid60gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CA1CA162EA85B00476C4F /* solid60gray.png */; };
+		4CFF5FDA162ED21400C6777D /* MRHAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF5FD8162ED21400C6777D /* MRHAboutViewController.m */; };
+		4CFF5FDB162ED21400C6777D /* MRHAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF5FD9162ED21400C6777D /* MRHAboutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320AF8492C47A4D819F7C450 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.frameworks; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4C3CA00C162E34FE00476C4F /* mrh.is.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mrh.is.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3CA010162E34FE00476C4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C3CA012162E34FE00476C4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,12 +54,41 @@
 		4C3CA01E162E34FE00476C4F /* mrh.is-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mrh.is-Prefix.pch"; sourceTree = "<group>"; };
 		4C3CA01F162E34FE00476C4F /* MRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRHAppDelegate.h; sourceTree = "<group>"; };
 		4C3CA020162E34FE00476C4F /* MRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRHAppDelegate.m; sourceTree = "<group>"; };
-		4C3CA022162E34FE00476C4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4C3CA024162E34FE00476C4F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4C3CA026162E34FE00476C4F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4C3CA028162E34FE00476C4F /* MRHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRHViewController.h; sourceTree = "<group>"; };
-		4C3CA029162E34FE00476C4F /* MRHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRHViewController.m; sourceTree = "<group>"; };
-		4C3CA02C162E34FE00476C4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRHViewController.xib; sourceTree = "<group>"; };
+		4C3CA190162E9D3200476C4F /* MRHMindmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRHMindmap.h; sourceTree = "<group>"; };
+		4C3CA191162E9D3200476C4F /* MRHMindmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRHMindmap.m; sourceTree = "<group>"; };
+		4C3CA192162E9D3200476C4F /* MRHMindmapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRHMindmapController.h; sourceTree = "<group>"; };
+		4C3CA193162E9D3200476C4F /* MRHMindmapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRHMindmapController.m; sourceTree = "<group>"; };
+		4C3CA194162E9D3200476C4F /* MRHMindmapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRHMindmapController.xib; sourceTree = "<group>"; };
+		4C3CA195162E9D3200476C4F /* MRHMindmapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRHMindmapViewController.h; sourceTree = "<group>"; };
+		4C3CA196162E9D3200476C4F /* MRHMindmapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRHMindmapViewController.m; sourceTree = "<group>"; };
+		4C3CA197162E9D3200476C4F /* MRHMindmapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRHMindmapViewController.xib; sourceTree = "<group>"; };
+		4C3CA198162E9D3200476C4F /* MRHPageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRHPageButton.h; sourceTree = "<group>"; };
+		4C3CA199162E9D3200476C4F /* MRHPageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRHPageButton.m; sourceTree = "<group>"; };
+		4C3CA1A0162E9D3B00476C4F /* MRHInnerShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRHInnerShadowView.h; sourceTree = "<group>"; };
+		4C3CA1A1162E9D3B00476C4F /* MRHInnerShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRHInnerShadowView.m; sourceTree = "<group>"; };
+		4C3CA1A2162E9D3B00476C4F /* MRHPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRHPageViewController.h; sourceTree = "<group>"; };
+		4C3CA1A3162E9D3B00476C4F /* MRHPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRHPageViewController.m; sourceTree = "<group>"; };
+		4C3CA1A4162E9D3B00476C4F /* MRHPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRHPageViewController.xib; sourceTree = "<group>"; };
+		4C3CA1A5162E9D3B00476C4F /* UIView+InnerShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+InnerShadow.h"; sourceTree = "<group>"; };
+		4C3CA1A6162E9D3B00476C4F /* UIView+InnerShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+InnerShadow.m"; sourceTree = "<group>"; };
+		4C3CA1AC162E9D5900476C4F /* Edmondsans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Edmondsans-Bold.otf"; sourceTree = "<group>"; };
+		4C3CA1AD162E9D5900476C4F /* Edmondsans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Edmondsans-Medium.otf"; sourceTree = "<group>"; };
+		4C3CA1AE162E9D5900476C4F /* Edmondsans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Edmondsans-Regular.otf"; sourceTree = "<group>"; };
+		4C3CA1B3162E9D6F00476C4F /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		4C3CA1B4162E9D6F00476C4F /* web@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web@2x.png"; sourceTree = "<group>"; };
+		4C3CA1B7162E9DA200476C4F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4C3CA1B8162E9DA200476C4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4C3CA1B9162E9DA200476C4F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4C3CA1BD162E9DB700476C4F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../Icon@2x.png"; sourceTree = "<group>"; };
+		4C3CA1BF162E9DBE00476C4F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
+		4C3CA1C2162EA29400476C4F /* MRHPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRHPage.h; sourceTree = "<group>"; };
+		4C3CA1C3162EA29400476C4F /* MRHPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRHPage.m; sourceTree = "<group>"; };
+		4C3CA1C5162EA2BA00476C4F /* Pages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pages.plist; sourceTree = "<group>"; };
+		4C3CA1C8162EA76C00476C4F /* solid80gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = solid80gray.png; sourceTree = "<group>"; };
+		4C3CA1CA162EA85B00476C4F /* solid60gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = solid60gray.png; sourceTree = "<group>"; };
+		4CFF5FD7162ED21400C6777D /* MRHAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRHAboutViewController.h; sourceTree = "<group>"; };
+		4CFF5FD8162ED21400C6777D /* MRHAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRHAboutViewController.m; sourceTree = "<group>"; };
+		4CFF5FD9162ED21400C6777D /* MRHAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRHAboutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */,
 				4C3CA011162E34FE00476C4F /* UIKit.framework in Frameworks */,
 				4C3CA013162E34FE00476C4F /* Foundation.framework in Frameworks */,
 				4C3CA015162E34FE00476C4F /* CoreGraphics.framework in Frameworks */,
@@ -57,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				4C3CA016162E34FE00476C4F /* mrh.is */,
+				4C3CA017162E34FE00476C4F /* Supporting Files */,
 				4C3CA00F162E34FE00476C4F /* Frameworks */,
 				4C3CA00D162E34FE00476C4F /* Products */,
 			);
@@ -73,6 +127,7 @@
 		4C3CA00F162E34FE00476C4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				320AF8492C47A4D819F7C450 /* QuartzCore.framework */,
 				4C3CA010162E34FE00476C4F /* UIKit.framework */,
 				4C3CA012162E34FE00476C4F /* Foundation.framework */,
 				4C3CA014162E34FE00476C4F /* CoreGraphics.framework */,
@@ -83,12 +138,12 @@
 		4C3CA016162E34FE00476C4F /* mrh.is */ = {
 			isa = PBXGroup;
 			children = (
+				4C3CA1C1162EA26D00476C4F /* Data */,
+				4C3CA18E162E9C2A00476C4F /* Mindmap */,
+				4C3CA18F162E9C6400476C4F /* Page View */,
+				4CFF5FD3162ED1AF00C6777D /* About */,
 				4C3CA01F162E34FE00476C4F /* MRHAppDelegate.h */,
 				4C3CA020162E34FE00476C4F /* MRHAppDelegate.m */,
-				4C3CA028162E34FE00476C4F /* MRHViewController.h */,
-				4C3CA029162E34FE00476C4F /* MRHViewController.m */,
-				4C3CA02B162E34FE00476C4F /* MRHViewController.xib */,
-				4C3CA017162E34FE00476C4F /* Supporting Files */,
 			);
 			path = mrh.is;
 			sourceTree = "<group>";
@@ -96,16 +151,99 @@
 		4C3CA017162E34FE00476C4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C3CA1B2162E9D5C00476C4F /* Images */,
+				4C3CA1AB162E9D4700476C4F /* Fonts */,
 				4C3CA018162E34FE00476C4F /* mrh.is-Info.plist */,
 				4C3CA019162E34FE00476C4F /* InfoPlist.strings */,
 				4C3CA01C162E34FE00476C4F /* main.m */,
 				4C3CA01E162E34FE00476C4F /* mrh.is-Prefix.pch */,
-				4C3CA022162E34FE00476C4F /* Default.png */,
-				4C3CA024162E34FE00476C4F /* Default@2x.png */,
-				4C3CA026162E34FE00476C4F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = mrh.is;
 			sourceTree = "<group>";
+		};
+		4C3CA18E162E9C2A00476C4F /* Mindmap */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CA190162E9D3200476C4F /* MRHMindmap.h */,
+				4C3CA191162E9D3200476C4F /* MRHMindmap.m */,
+				4C3CA192162E9D3200476C4F /* MRHMindmapController.h */,
+				4C3CA193162E9D3200476C4F /* MRHMindmapController.m */,
+				4C3CA194162E9D3200476C4F /* MRHMindmapController.xib */,
+				4C3CA195162E9D3200476C4F /* MRHMindmapViewController.h */,
+				4C3CA196162E9D3200476C4F /* MRHMindmapViewController.m */,
+				4C3CA197162E9D3200476C4F /* MRHMindmapViewController.xib */,
+				4C3CA198162E9D3200476C4F /* MRHPageButton.h */,
+				4C3CA199162E9D3200476C4F /* MRHPageButton.m */,
+			);
+			name = Mindmap;
+			path = mrh.is/Mindmap;
+			sourceTree = SOURCE_ROOT;
+		};
+		4C3CA18F162E9C6400476C4F /* Page View */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CA1A0162E9D3B00476C4F /* MRHInnerShadowView.h */,
+				4C3CA1A1162E9D3B00476C4F /* MRHInnerShadowView.m */,
+				4C3CA1A2162E9D3B00476C4F /* MRHPageViewController.h */,
+				4C3CA1A3162E9D3B00476C4F /* MRHPageViewController.m */,
+				4C3CA1A4162E9D3B00476C4F /* MRHPageViewController.xib */,
+				4C3CA1A5162E9D3B00476C4F /* UIView+InnerShadow.h */,
+				4C3CA1A6162E9D3B00476C4F /* UIView+InnerShadow.m */,
+			);
+			name = "Page View";
+			path = "mrh.is/Page View";
+			sourceTree = SOURCE_ROOT;
+		};
+		4C3CA1AB162E9D4700476C4F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CA1AC162E9D5900476C4F /* Edmondsans-Bold.otf */,
+				4C3CA1AD162E9D5900476C4F /* Edmondsans-Medium.otf */,
+				4C3CA1AE162E9D5900476C4F /* Edmondsans-Regular.otf */,
+			);
+			name = Fonts;
+			path = mrh.is/Fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+		4C3CA1B2162E9D5C00476C4F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CA1CA162EA85B00476C4F /* solid60gray.png */,
+				4C3CA1C8162EA76C00476C4F /* solid80gray.png */,
+				4C3CA1BF162E9DBE00476C4F /* Icon.png */,
+				4C3CA1BD162E9DB700476C4F /* Icon@2x.png */,
+				4C3CA1B7162E9DA200476C4F /* Default-568h@2x.png */,
+				4C3CA1B8162E9DA200476C4F /* Default.png */,
+				4C3CA1B9162E9DA200476C4F /* Default@2x.png */,
+				4C3CA1B3162E9D6F00476C4F /* web.png */,
+				4C3CA1B4162E9D6F00476C4F /* web@2x.png */,
+			);
+			name = Images;
+			path = mrh.is/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		4C3CA1C1162EA26D00476C4F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CA1C2162EA29400476C4F /* MRHPage.h */,
+				4C3CA1C3162EA29400476C4F /* MRHPage.m */,
+				4C3CA1C5162EA2BA00476C4F /* Pages.plist */,
+			);
+			name = Data;
+			path = mrh.is/Data;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CFF5FD3162ED1AF00C6777D /* About */ = {
+			isa = PBXGroup;
+			children = (
+				4CFF5FD7162ED21400C6777D /* MRHAboutViewController.h */,
+				4CFF5FD8162ED21400C6777D /* MRHAboutViewController.m */,
+				4CFF5FD9162ED21400C6777D /* MRHAboutViewController.xib */,
+			);
+			name = About;
+			path = mrh.is/About;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -160,10 +298,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C3CA01B162E34FE00476C4F /* InfoPlist.strings in Resources */,
-				4C3CA023162E34FE00476C4F /* Default.png in Resources */,
-				4C3CA025162E34FE00476C4F /* Default@2x.png in Resources */,
-				4C3CA027162E34FE00476C4F /* Default-568h@2x.png in Resources */,
-				4C3CA02D162E34FE00476C4F /* MRHViewController.xib in Resources */,
+				4C3CA19C162E9D3200476C4F /* MRHMindmapController.xib in Resources */,
+				4C3CA19E162E9D3200476C4F /* MRHMindmapViewController.xib in Resources */,
+				4C3CA1A9162E9D3B00476C4F /* MRHPageViewController.xib in Resources */,
+				4C3CA1AF162E9D5900476C4F /* Edmondsans-Bold.otf in Resources */,
+				4C3CA1B0162E9D5900476C4F /* Edmondsans-Medium.otf in Resources */,
+				4C3CA1B1162E9D5900476C4F /* Edmondsans-Regular.otf in Resources */,
+				4C3CA1B5162E9D6F00476C4F /* web.png in Resources */,
+				4C3CA1B6162E9D6F00476C4F /* web@2x.png in Resources */,
+				4C3CA1BA162E9DA200476C4F /* Default-568h@2x.png in Resources */,
+				4C3CA1BB162E9DA200476C4F /* Default.png in Resources */,
+				4C3CA1BC162E9DA200476C4F /* Default@2x.png in Resources */,
+				4C3CA1BE162E9DB700476C4F /* Icon@2x.png in Resources */,
+				4C3CA1C0162E9DBE00476C4F /* Icon.png in Resources */,
+				4C3CA1C6162EA2BA00476C4F /* Pages.plist in Resources */,
+				4C3CA1C9162EA76C00476C4F /* solid80gray.png in Resources */,
+				4C3CA1CB162EA85B00476C4F /* solid60gray.png in Resources */,
+				4CFF5FDB162ED21400C6777D /* MRHAboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +327,15 @@
 			files = (
 				4C3CA01D162E34FE00476C4F /* main.m in Sources */,
 				4C3CA021162E34FE00476C4F /* MRHAppDelegate.m in Sources */,
-				4C3CA02A162E34FE00476C4F /* MRHViewController.m in Sources */,
+				4C3CA19A162E9D3200476C4F /* MRHMindmap.m in Sources */,
+				4C3CA19B162E9D3200476C4F /* MRHMindmapController.m in Sources */,
+				4C3CA19D162E9D3200476C4F /* MRHMindmapViewController.m in Sources */,
+				4C3CA19F162E9D3200476C4F /* MRHPageButton.m in Sources */,
+				4C3CA1A7162E9D3B00476C4F /* MRHInnerShadowView.m in Sources */,
+				4C3CA1A8162E9D3B00476C4F /* MRHPageViewController.m in Sources */,
+				4C3CA1AA162E9D3B00476C4F /* UIView+InnerShadow.m in Sources */,
+				4C3CA1C7162EA59800476C4F /* MRHPage.m in Sources */,
+				4CFF5FDA162ED21400C6777D /* MRHAboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +348,6 @@
 				4C3CA01A162E34FE00476C4F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4C3CA02B162E34FE00476C4F /* MRHViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C3CA02C162E34FE00476C4F /* en */,
-			);
-			name = MRHViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -224,7 +375,14 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/../three20",
+					"$(BUILT_PRODUCTS_DIR)/../../three20",
+					../../../Development/iOS,
+					Libraries/Three20/Build/Products/three20,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -244,8 +402,15 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/../three20",
+					"$(BUILT_PRODUCTS_DIR)/../../three20",
+					../../../Development/iOS,
+					Libraries/Three20/Build/Products/three20,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -265,10 +430,12 @@
 		4C3CA032162E34FE00476C4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Michael Helmbrecht";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mrh.is/mrh.is-Prefix.pch";
 				INFOPLIST_FILE = "mrh.is/mrh.is-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39CA65FA-19B3-4053-86B8-2BBB91205E2C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -292,6 +459,7 @@
 				4C3CA032162E34FE00476C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

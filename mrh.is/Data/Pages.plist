@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Welcome to my app! This is a visual way of showing all the cool stuff that I've done and that I'm doing now. The starting screen is a mindmap, which shows how my life has organized itself so far. Tap on whatever you'd like to learn about!</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/student</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I've been a student for almost my entire life, so it's one of the bigger areas of my produced work. Investigate further above.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/student/at</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/student/at/MississippiState</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I attended Mississippi State University for undergrad, and graduated in April 2012. I studied electrical engineering, with minors in Spanish and math and a certificate in cognitive science. I like to stay busy and get the most out of opportunities, so I graduated with 6 years of college credit.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/student/at/CarnegieMellon</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I'm at Carnegie Mellon University for a masters in human-computer interaction. I'll graduate in August 2013 after an intense 12 months of learning and work. After this, I figure I'm qualified for just about anything.</string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/planner</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I take a certain joy in making sure things happen according to plan, and in crafting experiences that people will truly enjoy.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/planner/for</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/planner/for/ZPFCSummerPicnic</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I asked if anyone was working on the summer picnic, and they put me in charge. So a summer intern put together an Olympics-themed picnic with events, prizes and enough food for 50 people. All under budget, might I add.</string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/hacker</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Not the kind that can break into computers, though that would be handy. I love the crunch of time and the clever tricks of pulling something together that surprises people.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/hacker/on</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/hacker/on/ColorMeTimbers</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>My first hackathon! Four HCI students from CMU formed Team Rocket and created Color Me Timbers in 16 hours. CMT lets you take a picture of your outfit (or anything really), pull colors out of the image, and find things on Etsy that match your stuff. You can also check out your friends' colors and see how things are trending locally and globally. Soon to be on the App Store!</string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/designer</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I will admit that I'm not the best designer yet, but I'm focusing on it during grad school, and I'm getting much better. I'm determined to perfect the tools I need to design incredible user experiences.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/designer/on</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/designer/on/Sweatbadges</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>That's right: Sweatbadges. Like sweatbands from the 80s, but these show off your MBTI. As part of a design course, I partnered with Louise Briguglio [www.brigugl.io] to investigate how persons express their identities. We gave our classmates MBTI Sweatbadges and observed how it altered their behaviors. Exploratory research.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/designer/on/ZPFCEmployeeGuide</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Those ZPFC people sure let me do a lot. I got to head up the development of an employee guide, which started life as an employee handbook but became too cool under my hand, so we added caricatures of the employees, inside joke explanations, and a scavenger hunt. I also laid the book out using InDesign and sent it for printing.</string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/coder</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>That's my main source of {fun, money, awesomeness}. I'm mostly a coder, as evidenced by this lovely handcrafted portfolio app. Here are a few more examples of my projects.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/coder/on</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/coder/on/Clothespin</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Clothespin is my first startup. I teamed up with three other MHCI students (Shailie Thakkar , Ray Liaw [raymondliaw.com], and Nandhita Kumar [nandhitakumar.com]) to start a company for a Tech Startup Lab course taught by Dr. Luis von Ahn [cs.cmu.edu/~biglou]. We are creating an application that truly fuses fashion and social, with just the right user experience that other apps in the space lack. Soon to be on the App Store!</string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/leader</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I tend to have a lot of opinions and be very good at getting things done, so I make a natural leader of groups I am in.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/leader/of</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/leader/of/SocialSIG</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>In the MHCI program, special interest groups (SIGs) let student groups organize events to give back to the program as a whole. I am the only member of the Social SIG, which is part social event planner and part meta-SIG organizer. I've already gotten everyone onto a shared Gcal and email system and organized a few events, but I'm looking at making us an intranet to share our knowledge with each other and future generations.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/leader/of/Blitz!</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Blitz! [blitz.org.msstate.edu] is the show choir at MSU, which proved to be an amazing experience for me. After being a member for a year and a half, assisting when asked, I began building structure into the young organization, which led to my presidency. I oversaw practices, social events, and most importantly three shows. Blitz! is my family and always will be, and I'm grateful for everything that group taught me.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/a/leader/of/TauBetaPi</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I was inducted into TBP [tbp.org.msstate.edu], the engineering honor society, as a freshman through a legal loophole. I immediately took on a officer position. By the time elections for my senior year came around, I was holding three chairs, so I was elected president easily. I grew the already active organization into a more visible role on campus.</string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Being unproductive is the worst kind of day. So I have a lot of things that end up getting done.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/school</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/school/at</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/school/at/CarnegieMellon</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>At CMU I'm in a program well-known for its academic rigor. Other students are already sleeping in the lab. I'm doing so much work, some days I can't even believe it.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/school/at/CarnegieMellon/on</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/school/at/CarnegieMellon/on/Clothespin</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Clothespin is my first startup. I teamed up with three other MHCI students (Shailie Thakkar , Ray Liaw [raymondliaw.com], and Nandhita Kumar [nandhitakumar.com]) to start a company for a Tech Startup Lab course taught by Dr. Luis von Ahn [cs.cmu.edu/~biglou]. We are creating an application that truly fuses fashion and social, with just the right user experience that other apps in the space lack. Soon to be on the App Store!</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/school/at/MississippiState</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>At MSU I took as many classes as I could and was active in several organizations, becuase I liked learning as much as I could.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/school/at/MississippiState/on</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/school/at/MississippiState/on/research</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I worked for a year and a half in a psychology lab which made interfaces for electrical engineering tools. I got real-world HCI experience from an expert in the field, and I got to use my EE skills to advance the project. I served as a translator who would help the engineers and psychologists speak the same language.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/school/at/MississippiState/on/seniordesign</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>For my year-long senior design project, I was on a team [http://www.ece.msstate.edu/courses/design/2011/team_tate/] which had to design a a robot that would autonomously navigate a course, basing its choices on electrical measurements. I worked on the measurements, creating hardware and software solutions for sampling waveforms. I also helped the team with writing and presenting clearly.</string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/SAIC</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I worked for SAIC [www.saic.com], a large defense contractor, for two summers. During that time, I helped pioneer their intern program as well as their mobile development program.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/SAIC/on</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/SAIC/on/MTS</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Multimedia Training Solutions is a division which produces training materials in Flash. I was tasked with putting the training onto tablet computers. Rather than simply adapt each program, I created a framework that allowed arbitrary training materials to be transformed into iOS and Android tablet applications.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/SAIC/on/CloudShield</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>CloudShield technologies specializes in real-time data modification, which basically means that once the device is connected to a network, it can change any traffic while remaining completely undetected. I used the technology to demonstrate its use in undermining tactical plane flight simulations. I also developed an Android application that served as a remote control.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/SAIC/on/ECP</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>The Entry Control Point program is a holistic base security system that uses cameras, gates, and other devices to control access to a military installation. I created a mobile version of the desktop software which showed a map of the base and allowed the user on the base network to watch streaming video from any of the cameras.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/ZPFC</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I spent my final internship at Zero Point Frontiers Corp. [www.zeropointfrontiers.com], a 16-person (at the time) aerospace analysis company. I focused on designing interfaces for the tools created by the engineers there.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/ZPFC/on</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/ZPFC/on/ThisorThat</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I designed and built this iOS application from the ground up by myself. It uses a reduced form of analytical hierarchial process to help users make decisions. Soon to be on the App Store!</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/ZPFC/on/BLAST</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I wrote the front-end of this mission design tool using Qt, so we developed for OS X and Windows. I got to iterate over the design for several weeks, as well as push the engineers toward a user-centered design process.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/productive/at/work/at/ZPFC/on/Instarocket</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I got the job at ZPFC by redesigning the interface to this existing iPad application. Instarocket is designed to allow you to design a two-stage rocket; I made it a lot easier and more educational.</string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/on</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/on/theAppStore</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Now that this is out there, there's #1! I should be putting more out there very soon, so check back with my App Store page.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/on/LinkedIn</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I'm on LinkedIn at www.linkedin.com/profile/view?id=120751922.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/on/Twitter</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I'm on Twitter at www.twitter.com/mrh_is.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/on/theInternet</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I have a website at www.mrh.is.</string>
+	</dict>
+    
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/awesome</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Well, obviously.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/awesome/at</string>
+		<key>isPage</key>
+		<false/>
+		<key>contentText</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/awesome/at/singing</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>Ok, maybe not "awesome" exactly, but I really enjoy it, and I've done it a lot. I tend to burst into song quite often.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/awesome/at/speaking</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I'm a very confident public speaker, and I'm one of the few that enjoys public speaking. I've done the Toastmasters Speechcraft program during an internship, and I have no problem speaking off the cuff about almost anything.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/awesome/at/speaking/Spanish</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I still haven't truly mastered Spanish, but I'm conversant. I can hold conversations, and I can read and write fairly well.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/awesome/at/makingfriends</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>I am the best at walking up to random people and befriending them in a heartbeat. I can get along with anyone, and I have no shyness about talking to new people.</string>
+	</dict>
+	<dict>
+		<key>fullPath</key>
+		<string>mrh.is/awesome/at/popculture</string>
+		<key>isPage</key>
+		<true/>
+		<key>contentText</key>
+		<string>My true obsession is pop culture, which I will cite incessantly. I can turn almost anything into a song lyric or movie reference, and I have been known to require my friends to go home and watch certain movies.</string>
+	</dict>
+</array>
+</plist>

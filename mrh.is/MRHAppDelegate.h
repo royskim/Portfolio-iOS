@@ -8,12 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@class MRHViewController;
+@class MRHPage;
 
 @interface MRHAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UINavigationController *viewController;
 
-@property (strong, nonatomic) MRHViewController *viewController;
++ (MRHPage *)pageTree;
++ (MRHPage *)pageAtPath:(NSString *)fullPath;
+
+- (void)displayPageViewForPageFromButton:(id)sender;
 
 @end
